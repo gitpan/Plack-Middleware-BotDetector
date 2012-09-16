@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST
+META.yml
+Makefile.PL
+README
+README.pod
+dist.ini
+lib/Plack/Middleware/BotDetector.pm
+t/bot_detector.t
