@@ -11,7 +11,14 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Plack middleware to identify bots and spiders",
   "AUTHOR" => "chromatic <chromatic\@wgz.org>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "HTTP::Message::PSGI" => 0,
+    "HTTP::Request::Common" => 0,
+    "Plack::Builder" => 0,
+    "Test::More" => 0,
+    "strict" => 0,
+    "warnings" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -19,8 +26,13 @@ my %WriteMakefileArgs = (
   "EXE_FILES" => [],
   "LICENSE" => "perl",
   "NAME" => "Plack::Middleware::BotDetector",
-  "PREREQ_PM" => {},
-  "VERSION" => "1.20120916.2035",
+  "PREREQ_PM" => {
+    "Modern::Perl" => 0,
+    "Plack::Middleware" => 0,
+    "Plack::Util::Accessor" => 0,
+    "parent" => 0
+  },
+  "VERSION" => "1.20120918.0210",
   "test" => {
     "TESTS" => "t/*.t"
   }

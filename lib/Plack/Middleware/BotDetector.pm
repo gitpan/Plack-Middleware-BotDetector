@@ -33,7 +33,7 @@ Plack::Middleware::BotDetector - Plack middleware to identify bots and spiders
 
 =head1 VERSION
 
-version 1.20120916.2035
+version 1.20120918.0210
 
 =head1 SYNOPSIS
 
