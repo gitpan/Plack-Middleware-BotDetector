@@ -1,0 +1,30 @@
+Revision History for Plack-Middleware-BotDetector
+=================================================
+
+v1.20120920.0752 2012-09-20
+---------------------------
+
+commit 71233b32755f985be72a74ee9e94c668667dec8b
+Author: chromatic <chromatic@wgz.org>
+Date:   Thu Sep 20 00:49:14 2012 -0700
+
+    Added CHANGES dzil plugin.
+
+commit 0ca0c0c3ff8c1b8b1b5d175ceae567b4e99d5d8e
+Author: chromatic <chromatic@wgz.org>
+Date:   Thu Sep 20 00:47:33 2012 -0700
+
+    Removed Modern::Perl dependency.
+
+1.20120918.0210 2012-09-17
+--------------------------
+
+commit e4b5e2b0734e16fbe28e1e25ebc8be1c0cece170
+Author: chromatic <chromatic@wgz.org>
+Date:   Mon Sep 17 19:10:18 2012 -0700
+
+    Added autoprereqs, removed invalid Git repo.
+
+===================================
+End of changes in the last 365 days
+===================================

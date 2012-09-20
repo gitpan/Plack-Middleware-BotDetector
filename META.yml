@@ -7,8 +7,6 @@ build_requires:
   HTTP::Request::Common: 0
   Plack::Builder: 0
   Test::More: 0
-  strict: 0
-  warnings: 0
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
@@ -19,11 +17,12 @@ meta-spec:
   version: 1.4
 name: Plack-Middleware-BotDetector
 requires:
-  Modern::Perl: 0
   Plack::Middleware: 0
   Plack::Util::Accessor: 0
   parent: 0
+  strict: 0
+  warnings: 0
 resources:
   bugtracker: https://github.com/chromatic/Plack-Middleware-BotDetector/issues
   repository: git://github.com/chromatic/Plack-Middleware-BotDetector.git
-version: 1.20120918.0210
+version: 1.20120920.0752

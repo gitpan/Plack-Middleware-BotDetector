@@ -15,9 +15,7 @@ my %WriteMakefileArgs = (
     "HTTP::Message::PSGI" => 0,
     "HTTP::Request::Common" => 0,
     "Plack::Builder" => 0,
-    "Test::More" => 0,
-    "strict" => 0,
-    "warnings" => 0
+    "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -27,12 +25,13 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Plack::Middleware::BotDetector",
   "PREREQ_PM" => {
-    "Modern::Perl" => 0,
     "Plack::Middleware" => 0,
     "Plack::Util::Accessor" => 0,
-    "parent" => 0
+    "parent" => 0,
+    "strict" => 0,
+    "warnings" => 0
   },
-  "VERSION" => "1.20120918.0210",
+  "VERSION" => "1.20120920.0752",
   "test" => {
     "TESTS" => "t/*.t"
   }

@@ -1,7 +1,8 @@
 package Plack::Middleware::BotDetector;
 # ABSTRACT: Plack middleware to identify bots and spiders
 
-use Modern::Perl;
+use strict;
+use warnings;
 
 use parent 'Plack::Middleware';
 use Plack::Util::Accessor 'bot_regex';
@@ -33,7 +34,7 @@ Plack::Middleware::BotDetector - Plack middleware to identify bots and spiders
 
 =head1 VERSION
 
-version 1.20120918.0210
+version 1.20120920.0752
 
 =head1 SYNOPSIS
 
